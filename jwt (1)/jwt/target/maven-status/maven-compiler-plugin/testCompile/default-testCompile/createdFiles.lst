@@ -1,0 +1,7 @@
+com\authorizationservice\service\UserServiceTests.class
+com\authorizationservice\jwt\repository\UserRepositoryTests.class
+com\authorizationservice\service\UserServiceTests$SecurityUser.class
+com\authorizationservice\jwt\JwtApplicationTests.class
+com\authorizationservice\jwt\controller\AuthorizationControllerTests$SecurityUser.class
+com\authorizationservice\jwt\controller\AuthorizationControllerTests.class
+com\authorizationservice\utils\JWTUtilTests.class

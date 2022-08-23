@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.processpensionmodule.processpension.ProcesspensionApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.891 s - in com.processpensionmodule.processpension.ProcesspensionApplicationTests

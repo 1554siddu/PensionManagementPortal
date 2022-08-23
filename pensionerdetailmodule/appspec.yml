@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/siva-authorization-taskdefination:1"
+        LoadBalancerInfo:
+          ContainerName: "siddu-pensiondetail"
+          ContainerPort: "8083"
+        PlatformVersion: "LATEST"

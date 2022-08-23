@@ -1,0 +1,12 @@
+com\authorizationservice\jwt\exception\InvalidTokenException.class
+com\authorizationservice\jwt\util\JwtUtil.class
+com\authorizationservice\jwt\repository\UserRepository.class
+com\authorizationservice\jwt\model\UserRequest.class
+com\authorizationservice\jwt\exception\InvalidCredentialsException.class
+com\authorizationservice\jwt\model\User.class
+com\authorizationservice\jwt\JwtApplication.class
+com\authorizationservice\jwt\controller\AuthorizationController.class
+com\authorizationservice\jwt\exception\GlobalExceptionHandler.class
+com\authorizationservice\jwt\exception\ErrorResponse.class
+com\authorizationservice\jwt\service\UserServiceImpl.class
+com\authorizationservice\jwt\config\SecurityConfig.class

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.pensionerdetails.controller.PensionDetailsControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.206 s <<< FAILURE! - in com.pensionerdetails.controller.PensionDetailsControllerTest
+testForAadharNumberNotInCsvFile  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pensionDetailModuleController': Unsatisfied dependency expressed through field 'authorisationClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.pensionerdetails.feign.AuthorisationClient': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.pensionerdetails.feign.AuthorisationClient': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+
+testToGetCorrectPensionerDetailsFromController  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pensionDetailModuleController': Unsatisfied dependency expressed through field 'authorisationClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.pensionerdetails.feign.AuthorisationClient': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.pensionerdetails.feign.AuthorisationClient': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+
