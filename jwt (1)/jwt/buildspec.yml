@@ -5,6 +5,7 @@ phases:
       java: corretto17
   pre_build:
     commands:
+    - cd jwt
     - mvn install
     - echo Logging in to Amazon ECR...
     - aws --version
